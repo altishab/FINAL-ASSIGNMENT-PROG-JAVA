@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="490.0" prefWidth="779.0" style="-fx-background-color: #1DB954;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mymusicapp.Main">
+   <children>
+      <ListView fx:id="songListView" layoutX="35.0" layoutY="39.0" prefHeight="410.0" prefWidth="200.0" />
+      <ImageView fx:id="songImageView" fitHeight="271.0" fitWidth="200.0" layoutX="290.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="addSongCreatorTextField" layoutX="316.0" layoutY="411.0" />
+      <TextField fx:id="addSongDurationTextField" layoutX="316.0" layoutY="364.0" />
+      <Label layoutX="262.0" layoutY="368.0" text="Creator" />
+      <Label layoutX="259.0" layoutY="411.0" text="Duration" />
+      <ListView fx:id="addedSongsListView" layoutX="546.0" layoutY="39.0" prefHeight="220.0" prefWidth="200.0" />
+      <Button fx:id="addSongButton" layoutX="610.0" layoutY="361.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="73.0" style="-fx-background-color: grey;" text="Add Song" textFill="#1db954" />
+      <TextField fx:id="addSongTextField" layoutX="572.0" layoutY="285.0" />
+      <Label layoutX="502.0" layoutY="289.0" text="Song Name" />
+      <Label layoutX="603.0" layoutY="14.0" text="Added Song List" />
+      <Label layoutX="107.0" layoutY="14.0" text="Song List" />
+   </children>
+</AnchorPane>
